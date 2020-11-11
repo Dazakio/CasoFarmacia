@@ -7,13 +7,17 @@ namespace CasoFarmacia.Models
 {
     public class Medicamento
     {
-        public string Codigo_medicamento { get; set; }
 
-        public string Nombre_medicamento { get; set; }
+        public int IdMedicamento { get; set; }
 
-        public DateTime Fecha_vencimiento { get; set; }
+        public string NombreMedicamento { get; set; }
 
-        public int Precio_unitario { get; set; }
+        public DateTime FechaVencimiento { get; set; }
+
+        public int PrecioUnitarioVenta { get; set; }
+
+        public int PrecioUnitarioCosto { get; set; }
+
 
     }
 }
