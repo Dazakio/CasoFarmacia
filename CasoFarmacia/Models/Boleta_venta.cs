@@ -8,12 +8,10 @@ namespace CasoFarmacia.Models
     public class Boleta_venta
     {
 
-        public string Codigo_boleta { get; set; }
-        public DateTime Fecha_emision { get; set; }
-        public string Descripcion { get; set; }
-
-        public int Cantidad_medicamento { get; set; }
-        public int Total_pagar { get; set; }
+        public int IdBoleta { get; set; }
+        public DateTime FechaEmision { get; set; }
+        public int IdUsuario { get; set; }      
+        public int TotalAPagar { get; set; }
 
     }
 }
