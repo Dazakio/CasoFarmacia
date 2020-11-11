@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace CasoFarmacia.Models
 {
-    public class Afiliacion
+    public class Afiliacion_Salud
     {
-        public string Codigo_salud { get; set; }
-        public string Nombre_salud { get; set; }
+        public int IdSalud { get; set; }
+        public string NombreSalud { get; set; }
         public double Descuento { get; set; }
     }
 }
